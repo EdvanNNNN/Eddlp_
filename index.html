@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edd</title>
+</head>
+<style>
+  body {  
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(90deg, cyan, rgb(51, 255, 228))
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  line-height: 40px;
+  font-family: 'Muli';
+  color: #00ff88;
+  height: 160px;
+  overflow: hidden;
+}
+
+.visible {
+  font-weight: 600;
+  overflow: hidden;
+  height: 30px;
+  padding: 0 40px;
+  color: black;
+}
+.visible:before {
+  content: '[';
+  left: 0;
+  line-height: 40px;
+}
+.visible:after {
+  content: ']';
+  position: absolute;
+  right: 0;
+  line-height: 40px;
+}
+.visible:after, .visible:before {
+  position: absolute;
+  top: 0;
+  color: #ff00bf;
+  font-size: 42px;
+  animation: 2s linear 0s normal none infinite opacity;
+}
+
+p {
+  display: inline;
+  float: left;
+  margin: 0;
+}
+
+ul {
+  margin-top: 0;
+  padding-left: 110px;
+  text-align: left;
+  list-style: none;
+  animation: 7s linear 0s normal none infinite change;
+}
+
+ul li {
+  line-height: 35px;
+  margin: 0;
+}
+
+@keyframes opacity {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes change {
+  0%, 12%, 100% {
+    transform: translateY(0);
+  }
+  17%,29% {
+    transform: translateY(-25%);
+  }
+  34%,46% {
+    transform: translateY(-50%);
+  }
+  51%,63% {
+    transform: translateY(-75%);
+  }
+  68%,80% {
+    transform: translateY(-50%);
+  }
+  85%,97% {
+    transform: translateY(-25%);
+} 
+}
+div.oi {
+width:150px;
+height: 20px;
+border: 2px solid rgb(247, 25, 255);
+margin:10px;
+color: #fff;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+border-radius: 10px;
+font-family: 'Muli';
+}
+.nome1 {
+ font-family: 'Muli';
+ color: rgb(0, 0, 0);
+ font-size: clamp(1em, 1em + 1vw, 1.5em);
+ text-align: center;
+}
+a:link {
+  text-decoration: none
+}
+footer.fixar-rodape{
+  border-top: 1px solid #333;
+  bottom: 0;
+  left: 0px;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+  font-family: 'Muli';
+  text-align: center;
+  font-size: clamp(1em, 1em + 1vw, 1.5em);
+}
+html, * {
+  /** Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+</style>
+<body>
+    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    <div class='content'>
+      <div class='visible'>
+        <script id="nome2">
+          var nome = window.prompt('Qual é o seu nome?')
+          document.write(`${nome}</br>`)
+        </script>
+        <ul>
+          <li>COLA</li>
+          <li>NO</li>
+          <li>DC</li>
+          <li>Pkrl?</li> 
+        </ul>
+      </div>
+    </div>
+<div class="oi">
+  <a href="https://discord.gg/65SK85H8"> Clica aqui, favor </a>
+</div>
+            <script src="js/index.js"></script>
+<div class="nome1">
+<script>
+var nome3 = id=nome3
+//var nome = window.prompt('Qual é o seu nome?')
+document.write(`Olá, <strong>${nome}</strong>. Você é especial Pkrl!<br/>`)
+//document.write(`Clica no link, por favor.`)
+//ocument.write(`Seu nome em maiúsculas é <strong>${nome.toUpperCase()}</strong>.<br/>`)
+//document.write(`Seu nome em minúsculas é <strong>${nome.toLowerCase()}</strong>.`)
+</script>
+<footer class="fixar-rodape">
+  <p>&copy; eddlp_</p>
+</footer>
+</div>
+</body>
+</html>
